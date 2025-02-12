@@ -1,6 +1,6 @@
 import requests
 import json
-from scrapper import get_website_content_and_clean
+from scraper import get_website_content_and_clean
 import openai
 
 OPENAI_API_KEY = "your-openai-api-key-here"
