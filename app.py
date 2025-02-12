@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from scrapper import get_website_content_and_clean
+from scraper import get_website_content_and_clean
 from ai import format_content_with_ollama, format_content_with_openai
 import traceback
 
