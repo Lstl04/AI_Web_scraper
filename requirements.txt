@@ -1,0 +1,11 @@
+# Web framework
+Flask
+Flask-CORS
+
+# Web scraping
+selenium
+beautifulsoup4
+
+# AI processing
+requests
+openai
