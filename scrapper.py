@@ -7,7 +7,7 @@ def get_website_content_and_clean(website):
     chrome_options = Options()
     chrome_options.add_argument("--no-sandbox") 
     chrome_options.add_argument("--disable-dev-shm-usage")
-    service = Service(r"C:\Users\louis\Documents\Projects\AI Scrapper\chromedriver.exe")
+    service = Service(r"path-to-driver")
     driver = webdriver.Chrome(service=service, options=chrome_options)
     driver.get(website)
     html = driver.page_source
