@@ -96,24 +96,24 @@ ollama run
 
 ## Technologies Used
 
-### **Backend (Flask API - **``**)**
+### **Backend (Flask API)**
 
 - Handles scraping requests and AI model selection
 - Routes web UI requests to AI processors
 
-### **Frontend (React - **``**)**
+### **Frontend (React)**
 
 - Provides a UI for input (URL, instructions, AI selection)
 - Sends requests to Flask backend
 - Displays AI-processed output
 
-### **Web Scraping (**``**)**
+### **Web Scraping**
 
 - Uses **Selenium** to load and extract webpage content
 - Cleans unnecessary HTML elements using **BeautifulSoup**
 - **Automatically manages ChromeDriver**
 
-### **AI Processing (**``**)**
+### **AI Processing**
 
 - Formats scraped content using AI
 - Supports:
@@ -127,13 +127,6 @@ ollama run
 - 🚀 Enable File Export (CSV, JSON, PDF)
 - 🚀 Improve UI Design & Add Loading Indicators
 - 🚀 Deploy the App Online (Render/Vercel)
-
----
-
-## Contributors
-
-- **Louis Stalet** - Creator
-- Contributions Welcome!
 
 ---
 
